@@ -1,0 +1,21 @@
+{
+  "name": "theodel.github.io",
+  "description": "Personnal wbesite of Th10;38Ro Delalande-Delarbre",
+  "main": "index.html",
+  "authors": [
+    "Theo Delalande-Delarbre"
+  ],
+  "license": "Apache 2-0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
