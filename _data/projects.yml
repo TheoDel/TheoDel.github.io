@@ -2,6 +2,7 @@
     image: "wdg2.png"
 -   name: "revell"
     image: "revell.png"
+    mention: <i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;Prix Laval Virtual
 -   name: "Cadrythm"
     image: "cadrythm.png"
 -   name: "UTC Now"
