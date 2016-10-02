@@ -16,6 +16,7 @@
 title: Théo Delalande-Delarbre
 email: contact@theodela.fr
 url: "http://www.theodela.fr"
+baseurl: ""
 
 #Build settings
 markdown: kramdown

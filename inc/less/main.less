@@ -2,13 +2,19 @@ body{
   padding-top: 70px;
 }
 
-.thumbnail {
-  padding: 0px;
-  overflow: hidden;
-  position: relative;
+.home-header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 40px;
+  background-image: url("../media/map.png");
+  color: white;
 }
 
 .project-thumb {
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+
   img {
     -webkit-transition: @transition_zoom; /* Safari and Chrome */
     -moz-transition: @transition_zoom; /* Firefox */
@@ -49,6 +55,7 @@ body{
     color: white;
     box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 0px 4px 4px 0px;
+    cursor: default;
   }
 }
 
@@ -65,3 +72,4 @@ body{
     opacity: 1;
   }
 }
+
