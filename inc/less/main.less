@@ -1,6 +1,10 @@
 body{
-  padding-top: 70px;
+  padding-top: 50px;
 }
+
+/*
+Home page
+*/
 
 .home-header {
   padding-top: 60px;
@@ -10,10 +14,11 @@ body{
   color: white;
 }
 
-.project-thumb {
+.project-grid .project-thumb {
   padding: 0px;
   overflow: hidden;
   position: relative;
+  width: 100%;
 
   img {
     -webkit-transition: @transition_zoom; /* Safari and Chrome */
@@ -73,3 +78,62 @@ body{
   }
 }
 
+/*
+Project pages
+*/
+.project-bandeau {
+  background-color: darken(@brand-primary, 6.5%);
+  color: white;
+  border-bottom: @border-radius-base solid darken(@navbar-inverse-bg, 10%);
+  margin-bottom: 30px;
+
+  .page-header {
+    border-bottom: none;
+  }
+}
+
+.project-header {
+  overflow: hidden;
+  margin: 0px 10px 30px 10px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+  }
+
+  .video-wrapper {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
+
+      iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}
+
+img.project-techno {
+  height : 48px;
+  cursor: help;
+}
+
+.project-infos{
+  margin-bottom: 11px;
+
+  ul li{
+    margin-bottom: 11px;
+  }
+}

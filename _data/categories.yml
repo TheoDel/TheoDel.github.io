@@ -1,0 +1,15 @@
+dev:
+    name: Développement
+    color: success
+ui:
+    name: UI
+    color: warning
+ux:
+    name: UX
+    color: danger
+graphism:
+    name: Graphisme
+    color: info
+product:
+    name: Produit
+    color: default

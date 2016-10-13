@@ -1,32 +1,39 @@
 ---
 layout: page
 ---
-<div class="container">
-    <div class="page-header">
-        <h1>Projets</h1>
-    </div>
+<div id="projects">
 
+<div class="project-bandeau">
+    <div class="container">
+        <div class="page-header">
+            <h1>Projets</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container project-grid">
     <div class="row">
-        {% for project in site.pages %}
-        {% if project.layout == 'project' %}
+        {% assign sorted_projects = site.projects | sort: 'order' | reverse %}
+        {% for project in sorted_projects %}
         <div class="col-xs-6 col-sm-4 col-md-3">
             <a href="{{ project.url }}" class="thumbnail project-thumb">
-                <img src="media/projets-icones/{{project.image}}"/>
-
-                <div class="project-desc-container">
-                    <div class="project-desc">
-                        <h4>{{project.title}}</h4>
-                    </div>
-                </div>
+                <img src="media/projets-icones/{{project.icone}}"/>
 
                 {% if project.mention != nil %}
                 <div class="mention alert alert-danger">
                     {{project.mention}}
                 </div>
                 {% endif %}
+
+                <div class="project-desc-container">
+                    <div class="project-desc">
+                        <h4>{{project.title}}</h4>
+                    </div>
+                </div>
             </a>
         </div>
-        {% endif %}
         {% endfor %}
     </div>
+</div>
+
 </div>

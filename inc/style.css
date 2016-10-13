@@ -4149,7 +4149,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 22px;
+  margin-bottom: 0;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -7061,8 +7061,11 @@ label {
   border-width: 0 1px 4px 1px;
 }
 body {
-  padding-top: 70px;
+  padding-top: 50px;
 }
+/*
+Home page
+*/
 .home-header {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -7070,12 +7073,13 @@ body {
   background-image: url("../media/map.png");
   color: white;
 }
-.project-thumb {
+.project-grid .project-thumb {
   padding: 0px;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
-.project-thumb img {
+.project-grid .project-thumb img {
   -webkit-transition: all 1s ease;
   /* Safari and Chrome */
   -moz-transition: all 1s ease;
@@ -7087,7 +7091,7 @@ body {
   transition: all 1s ease;
   max-width: 100%;
 }
-.project-thumb .project-desc-container {
+.project-grid .project-thumb .project-desc-container {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -7099,7 +7103,7 @@ body {
   background-color: rgba(30, 181, 150, 0.7);
   color: #fff;
 }
-.project-thumb .project-desc {
+.project-grid .project-thumb .project-desc {
   padding: 0px 10px;
   display: flex;
   justify-content: center;
@@ -7107,7 +7111,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.project-thumb .mention {
+.project-grid .project-thumb .mention {
   position: absolute;
   left: 0px;
   bottom: 10%;
@@ -7131,4 +7135,55 @@ body {
 }
 .project-thumb:hover .project-desc-container {
   opacity: 1;
+}
+/*
+Project pages
+*/
+.project-bandeau {
+  background-color: #19997e;
+  color: white;
+  border-bottom: 4px solid #178972;
+  margin-bottom: 30px;
+}
+.project-bandeau .page-header {
+  border-bottom: none;
+}
+.project-header {
+  overflow: hidden;
+  margin: 0px 10px 30px 10px;
+  text-align: center;
+}
+.project-header img {
+  max-width: 100%;
+}
+.project-header .video-wrapper {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.project-header .video-wrapper .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.project-header .video-wrapper .video-container iframe,
+.project-header .video-wrapper .video-container object,
+.project-header .video-wrapper .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+img.project-techno {
+  height: 48px;
+  cursor: help;
+}
+.project-infos {
+  margin-bottom: 11px;
+}
+.project-infos ul li {
+  margin-bottom: 11px;
 }
