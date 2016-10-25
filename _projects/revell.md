@@ -1,5 +1,4 @@
 ---
-layout: project
 title : "revell"
 icone: "revell.png"
 mention: <i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Prix Laval Virtual</span>

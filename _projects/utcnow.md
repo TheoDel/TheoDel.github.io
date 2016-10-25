@@ -1,5 +1,4 @@
 ---
-layout: project
 title : "UTC Now"
 icone: "utcnow.png"
 order: 1

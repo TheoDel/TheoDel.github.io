@@ -7064,6 +7064,9 @@ body {
   padding-top: 50px;
   position: relative;
 }
+.navbar-nav li a {
+  transition: all 0.2s ease 0s;
+}
 /*
 Home page
 */

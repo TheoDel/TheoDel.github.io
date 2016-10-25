@@ -7,8 +7,9 @@ jQuery(document).ready( function($) {
         e.stopPropagation();
         var target = $(this).data("target");
         if($(target).length>0){
+            var targetpx = $(target).offset().top - $("navbar-header").height();
             $('html, body').animate(
-                { scrollTop: $(target).offset().top - $("nav").height() },
+                { scrollTop: targetpx },
                 "slow"
             );
         }

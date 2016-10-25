@@ -1,5 +1,4 @@
 ---
-layout: project
 title : "Tableau de bord WE DO GOOD V2"
 icone: "wdg2.png"
 order: 3
