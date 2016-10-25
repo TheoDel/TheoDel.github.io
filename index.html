@@ -42,15 +42,25 @@ layout: page
                 </a>
             </div>
             {% endfor %}
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a class="thumbnail project-thumb">
+                    <img src="media/projets-icones/more.png"/>
+
+                    <div class="project-desc-container">
+                        <div class="project-desc">
+                            <div>
+                                <h4>Plus de projets, bientôt...</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
 <div id="about">
-    <div class="container">
-        <a href="media/CV.pdf" aria-label="page github" class="btn btn-primary">
-            Télécharger mon CV
-        </a>
-    </div>
+    {% include presentation.html %}
 </div>
 <br/>
