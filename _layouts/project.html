@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+{% include header.html %}
+
+<body>
+
+{% include navbar.html %}
+
+<div class="project-bandeau">
+    <div class="container">
+        <div class="page-header">
+            <h1>{{page.title}}</h1>
+            <i>{{page.desc}}</i>
+        </div>
+    </div>
+</div>
+
+<div class="container page-project">
+
+    <div class="col-sm-4 col-md-3 project-infos">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-fw fa-calendar-o" aria-hidden="true"></i>{{page.displaydate}}</li>
+                        <li><i class="fa-li fa fa-fw fa-map-marker" aria-hidden="true"></i>{{page.context}}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <p>
+                        {% for projectcategory in page.projectcategories %}
+                        {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
+                        <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
+                        {% endfor %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Technologies</h3>
+                </div>
+                <div class="panel-body">
+                <p>{% for techno in page.technologies %}
+                    {% assign technodata = site.data.technologies[techno] %}
+                    <img src="techno-icones/{{technodata.image}}" class="project-techno"
+                         data-toggle="tooltip" data-placement="bottom" title="{{technodata.name}}"/>
+                    {% endfor %}
+                </p>
+                </div>
+            </div>
+
+            {% if page.team != nil %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Equipe</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-fw fa-users" aria-hidden="true"></i>{{page.team}}</li>
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="col-sm-8 col-md-9">
+        {% if page.headervideo != nil %}
+        <div class="project-header">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="{{page.headervideo}}" allowfullscreen></iframe>
+            </div>
+        </div>
+        {% endif %}
+        {% if page.headerimage != nil %}
+        <div class="project-header">
+            <img class="img-responsive" src="{{page.headerimage}}"/>
+        </div>
+        {% endif %}
+
+        {{ content }}
+    </div>
+</div>
+
+
+{% include footer.html %}
+
+</body>
+</html>
