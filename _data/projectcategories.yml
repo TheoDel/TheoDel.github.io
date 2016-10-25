@@ -2,14 +2,20 @@ dev:
     name: Développement
     color: success
 ui:
-    name: UI
+    name: User Interface
     color: warning
 ux:
-    name: UX
+    name: User Experience
     color: danger
 graphism:
     name: Graphisme
     color: info
 product:
     name: Produit
+    color: default
+rv:
+    name: Réalité Virtuelle
+    color: default
+mobil:
+    name: Dev. Mobile
     color: default

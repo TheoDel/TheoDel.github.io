@@ -22,3 +22,6 @@ wordpress:
 jquery:
     name: jQuery
     image: jquery.png
+invision:
+    name: inVision
+    image: invision.png

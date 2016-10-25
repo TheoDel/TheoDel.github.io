@@ -30,13 +30,10 @@
             </div>
 
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Catégories</h3>
-                </div>
                 <div class="panel-body">
-
-                    <p>{% for category in page.categories %}
-                        {% assign categorydata = site.data.categories[category.name] %}
+                    <p>
+                        {% for projectcategory in page.projectcategories %}
+                        {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
                         <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
                         {% endfor %}
                     </p>
@@ -56,21 +53,36 @@
                 </p>
                 </div>
             </div>
+
+            {% if page.team != nil %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Equipe</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-fw fa-users" aria-hidden="true"></i>{{page.team}}</li>
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
         </div>
     </div>
 
     <div class="col-sm-8 col-md-9">
+        {% if page.headervideo != nil %}
         <div class="project-header">
-            {% if page.headervideo != nil %}
-            <div class="video-wrapper">
-                <div class="video-container">
-                    <iframe src="{{page.headervideo}}" frameborder="0" allowfullscreen></iframe>
-                </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="{{page.headervideo}}" allowfullscreen></iframe>
             </div>
-            {% else if page.headerimage != nil %}
-            <img src="{{page.headerimage}}"/>
-            {% endif %}
         </div>
+        {% endif %}
+        {% if page.headerimage != nil %}
+        <div class="project-header">
+            <img class="img-responsive" src="{{page.headerimage}}"/>
+        </div>
+        {% endif %}
+
         {{ content }}
     </div>
 </div>

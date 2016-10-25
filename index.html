@@ -3,37 +3,54 @@ layout: page
 ---
 <div id="projects">
 
-<div class="project-bandeau">
-    <div class="container">
-        <div class="page-header">
-            <h1>Projets</h1>
+    <div class="project-bandeau">
+        <div class="container">
+            <div class="page-header">
+                <h1>Projets</h1>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="container project-grid">
-    <div class="row">
-        {% assign sorted_projects = site.projects | sort: 'order' | reverse %}
-        {% for project in sorted_projects %}
-        <div class="col-xs-6 col-sm-4 col-md-3">
-            <a href="{{ project.url }}" class="thumbnail project-thumb">
-                <img src="media/projets-icones/{{project.icone}}"/>
+    <div class="container project-grid">
+        <div class="row">
+            {% assign sorted_projects = site.projects | sort: 'order' | reverse %}
+            {% for project in sorted_projects %}
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="{{ project.url }}" class="thumbnail project-thumb">
+                    <img src="media/projets-icones/{{project.icone}}"/>
 
-                {% if project.mention != nil %}
-                <div class="mention alert alert-danger">
-                    {{project.mention}}
-                </div>
-                {% endif %}
-
-                <div class="project-desc-container">
-                    <div class="project-desc">
-                        <h4>{{project.title}}</h4>
+                    {% if project.mention != nil %}
+                    <div class="mention alert alert-danger">
+                        {{project.mention}}
                     </div>
-                </div>
-            </a>
+                    {% endif %}
+
+                    <div class="project-desc-container">
+                        <div class="project-desc">
+                            <div>
+                                <h4>{{project.title}}</h4>
+                                <p>{{project.desc}}</p>
+                                <p>
+                                    {% for projectcategory in project.projectcategories %}
+                                    {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
+                                    <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
+                                    {% endfor %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
 
+<div id="about">
+    <div class="container">
+        <a href="media/CV.pdf" aria-label="page github" class="btn btn-primary">
+            Télécharger mon CV
+        </a>
+    </div>
 </div>
+<br/>
