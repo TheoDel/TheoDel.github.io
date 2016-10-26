@@ -7,7 +7,7 @@ desc : "Application mobile d'agenda partagé pour l'UTC"
 headerimage: "utcnow/header.jpg"
 displaydate: "Printemps 2016"
 context: "Université de Technologie de Compiègne"
-team: "Dans un groupe de 4 personnes, mes missions se sont surtout centrées sur le maquettage et la structure de l'application"
+team: "Dans un groupe de 4 étudiants ingénieurs, mes missions se sont surtout centrées sur le maquettage et la structure de l'application."
 
 projectcategories:
    - name : dev

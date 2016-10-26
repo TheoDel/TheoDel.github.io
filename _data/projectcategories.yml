@@ -1,15 +1,15 @@
+ux:
+    name: User Experience
+    color: danger
 dev:
     name: Développement
     color: success
 study:
     name: Etude
-    color: info
+    color: primary
 ui:
     name: User Interface
     color: warning
-ux:
-    name: User Experience
-    color: danger
 graphism:
     name: Graphisme
     color: info
