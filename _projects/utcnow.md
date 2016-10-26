@@ -40,6 +40,7 @@ de la vie étudiante, sportive, associative... via cette plateforme.
 ---
 
 ## Méthodologie
+
 ### Concept et étude préalable
 Outre le concept de départ de représenter tous les évènements de l'UTC (et ce
 sur différents supports: appli, webTV..), nous avons recueilli des **idées
