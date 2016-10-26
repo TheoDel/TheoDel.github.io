@@ -26,6 +26,7 @@ technologies:
 
 
 ---
+
 **UTC Now** est un projet d'**application mobile** d'agenda centralisant 
 tous les évènements de l'Université de Technologie de Compiègne.
 Ceux-ci peuvent être issus des évènements officiels (conférences, 
@@ -37,6 +38,7 @@ d'évènements simultanés tout en favorisant l'organisation et la sérendipité
 de la vie étudiante, sportive, associative... via cette plateforme.
 
 ---
+
 ## Méthodologie
 ### Concept et étude préalable
 Outre le concept de départ de représenter tous les évènements de l'UTC (et ce

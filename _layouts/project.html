@@ -26,17 +26,10 @@
                         <li><i class="fa-li fa fa-fw fa-calendar-o" aria-hidden="true"></i>{{page.displaydate}}</li>
                         <li><i class="fa-li fa fa-fw fa-map-marker" aria-hidden="true"></i>{{page.context}}</li>
                     </ul>
-                </div>
-            </div>
-
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <p>
-                        {% for projectcategory in page.projectcategories %}
+                    <p>{% for projectcategory in page.projectcategories %}
                         {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
                         <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
-                        {% endfor %}
-                    </p>
+                        {% endfor %}</p>
                 </div>
             </div>
 

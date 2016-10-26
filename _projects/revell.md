@@ -48,6 +48,7 @@ Cette possibilité est offerte par les controlleurs Razer Hydra qui reproduisent
 Enfin, le casque Oculus Rift transcrit les mouvements de têtes sur le personnage virtuel.
 
 ---
+
 ## Méthodologie du projet
 ### Recherche de concept
 Inspirés par les théories de sciences cognitives sur la perception spatiale, nous 

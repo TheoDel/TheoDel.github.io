@@ -1,6 +1,9 @@
 dev:
     name: Développement
     color: success
+study:
+    name: Etude
+    color: info
 ui:
     name: User Interface
     color: warning
