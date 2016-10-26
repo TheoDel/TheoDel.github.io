@@ -52,6 +52,7 @@ Enfin, le casque Oculus Rift transcrit les mouvements de têtes sur le personnag
 ## Méthodologie du projet
 
 ### Recherche de concept
+
 Inspirés par les théories de sciences cognitives sur la perception spatiale, nous 
 sommes partis de l'idée d'une expérience où l'utilisateur aurait des capacités
 similaires à celles d'une personne aveugle et devrait utiliser des nouveaux
