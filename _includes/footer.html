@@ -1,7 +1,13 @@
 <div class="jumbotron" id="contact">
     <div class="container">
             <h4>{{site.title}}</h4>
-            <h5>Développeur, UI/UX Designer</h5>
+            <h5>
+                {% if page.lang == 'en' %}
+                Developper, UX designer
+                {% else %}
+                Développeur, UX Designer
+                {% endif %}
+                </h5>
             <div>
                 <a href="mailto:{{site.email}}" aria-label="contact mail" class="btn btn-primary"
                    data-toggle="tooltip" data-placement="bottom" title="Mail: {{site.email}}">

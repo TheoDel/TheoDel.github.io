@@ -28,7 +28,13 @@
                     </ul>
                     <p>{% for projectcategory in page.projectcategories %}
                         {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
-                        <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
+                        <span class="label label-{{categorydata.color}}">
+                            {% if page.lang == "fr" %}
+                            {{categorydata.name}}
+                            {% endif %} {% if page.lang == "en" %}
+                            {{categorydata.name-en}}
+                            {% endif %}
+                        </span>
                         {% endfor %}</p>
                 </div>
             </div>

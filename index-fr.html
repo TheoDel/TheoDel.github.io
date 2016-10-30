@@ -1,23 +1,22 @@
 ---
 layout: page
-lang: en
+lang: fr
 ---
 <br/>
     <div id="about">
-        {% include presentation-en.html %}
+        {% include presentation-fr.html %}
     </div>
 
 <div id="projects">
     <div class="container">
-        <h1 class="page-header">Projects</h1>
+        <h1 class="page-header">Projets</h1>
     </div>
 
     <div class="container project-grid">
         <div class="row">
             {% assign sorted_projects = site.projects | sort: 'order' | reverse %}
             {% for project in sorted_projects %}
-            {% if project.lang == "en" %}
-
+            {% if project.lang == "fr" %}
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <a href="{{ project.url }}" class="thumbnail project-thumb">
                     <img src="media/projets-icones/{{project.icone}}"/>
@@ -36,7 +35,7 @@ lang: en
                                 <p>
                                     {% for projectcategory in project.projectcategories %}
                                     {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
-                                    <span class="label label-{{categorydata.color}}">{{categorydata.name-en}}</span>
+                                    <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
                                     {% endfor %}
                                 </p>
                             </div>
@@ -54,7 +53,7 @@ lang: en
                     <div class="project-desc-container">
                         <div class="project-desc">
                             <div>
-                                <h4>More projects coming, soon...</h4>
+                                <h4>Plus de projets, bientôt...</h4>
                             </div>
                         </div>
                     </div>

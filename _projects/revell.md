@@ -1,15 +1,16 @@
 ---
+lang: en
 title : "revell"
 icone: "revell.png"
-mention: <i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Prix Laval Virtual</span>
+mention: <i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Laval Virtual Award</span>
 order: 2
 
-desc : "Expérience de perception alternative en réalité virtuelle"
-headervideo: "https://www.youtube.com/embed/JZDoS4jbZEA"
+desc : "Alternative perception experience in Virtual Reality"
+headervideo: "https://www.youtube.com/embed/u3QTF0o8uU0"
 
-displaydate: "Automne 2015"
+displaydate: "Fall 2015"
 context: "Université de Technologie de Compiègne"
-team: "Ce projet a été réalisé avec Aurélien Delval. Nous avons ensemble conceptualisé le projet, j'ai ensuite eu la tâche de le développer."
+team: "This project was made with Aurélien Delval. We both conceptualized the concept and I had to develop it."
 
 projectcategories:
    - name : dev
@@ -26,69 +27,70 @@ technologies:
 
 
 ---
-Comment se repérer dans un espace que l'on ne peut percevoir que par ses mouvements ?
+How to get your bearings in a space you can only perceive through your movements ?
 
-**revell** est un projet de **réalité virtuelle** dans lequel l'utilisateur 
-est immergé à la première personne dans un environnement constiué d'obstacles initialement invisibles.
-Sans ses repères perceptifs habituels, l'utilisateur peut révéler le monde 
-l'entourant, à travers ses gestes physiques et ses actions :
-Les surface de l'environnement virtuel sont au début invisibles, mais quand 
-les mains de l'utilisateur les touchent, elles deviennent visibles. Le retour
-est donc uniquement visuel et non haptique.
+**revell** is a **virtual reality** project where the user is immerged in 
+an environment with invisible surfaces. Without their usual senses,
+they can reveal the surrounding world through physical gestures and actions:
+The surfaces are initially invisible, but when the user hands touch them, they
+become visible. The perceptive feedback is then visual and not haptic.
 
 <div class="alert alert-danger"><p><i class="fa fa-trophy" aria-hidden="true">
-</i>&nbsp;<b>revell</b> a gagné le <b>Prix "Virtual Fantasy award" au salon <a href="http://www.laval-virtual.org/">Laval Virtual</a></b>, auquel il
+</i>&nbsp;<b>revell</b> won the <b>Prix "Virtual Fantasy award" at <a href="http://www.laval-virtual.org/">Laval Virtual</a></b>, auquel il
 a été présenté au grand public.</p>
-<p>Laval Virtual est un salon international des technologies de réalité virtuelle et de ses applications. 
-Notre projet a été présenté et nommé gagnant parmi une douzaine de projets étudiant dans la catégorie démo. 
-Le jury  a particulièrement aimé l'engagement corporel que doit avoir l'utilisateur dans cette expérience.</p>
+<p>Laval Virtual is a leader international exhibition on virtual technologies and uses. 
+Our project was presented during the exhibition, then awarded among a dozen student 
+projects in the demo category. The jury loved the original physical and cognitive 
+engagement our project transmits !</p>
 </div>
 
-Cette possibilité est offerte par les controlleurs Razer Hydra qui reproduisent les mouvements et positions des mains dans l'environnement virtuel. 
-Enfin, le casque Oculus Rift transcrit les mouvements de têtes sur le personnage virtuel.
+Technically, we used Razer Hydra controllers, reproducing the hand movements and positions
+in the virtual environment. Finally, the Oculus Rift is used to transcribe head movements
+on the avatar.
 
 ---
 
-## Méthodologie du projet
+## Project Methodology
 
-### Recherche de concept
+### Searching a concept
 
-Inspirés par les théories de sciences cognitives sur la perception spatiale, nous 
-sommes partis de l'idée d'une expérience où l'utilisateur aurait des capacités
-similaires à celles d'une personne aveugle et devrait utiliser des nouveaux
-mouvements pour se repérer.
+Inspired by the cognitive sciences theories about spatial perception, we
+wanted to build an experience where the user would have a perception similar to
+a blind person. He should then use now movements to be guided.
 
 <div class="thumbnail">
-      <img src="revell/drawconcepts.png" class="img-responsive" alt="Schémas de concepts préalables">
+      <img src="revell/drawconcepts.png" class="img-responsive" alt="Concepts sketches">
       <div class="caption">
-        <p>Schémas des concepts imaginés en amont du projet : révéler les 
-        surfaces par le toucher (virtuel), utiliser le son comme écho,
-        sous-diviser le monde à révéler en voxels... (Dessins A.Delval)</p>
+        <p>Sketches of the imagined concepts : reveal surfaces by (virtual) touch,
+         use the echo sound, subdivide the world in voxels... (Drawings from A.Delval)</p>
       </div>
 </div>
 
-### Développement
-Avec les limitations techniques et de temps, nous avons réduit les interactions à
-la plus importante, celle de toucher des surfaces avec les mains. Le moteur 
-du jeu a ensuite été développé avec Unity3D.
+### Development
+Considering our technical and temporal constraints, we reduced the interactions
+to the most important : touching surfaces with the virtual hands. The game engine
+a been then developed with Unity3D.
+
 <div class="thumbnail">
-      <img src="revell/development.png" class="img-responsive" alt="Aperçus du développement">
+      <img src="revell/development.png" class="img-responsive" alt="Development previews">
       <div class="caption">
-        <p>Aperçus du monde modélisé sur Unity, le résultat de sa transformation en
-        cubes (voxelization), les zones de collision du joueur et un des
-        premiers aperçus du jeu en temps réel</p>
+        <p>The world modeled on Unity, the result of it transformation into
+        cubes (voxels), the collision zones on the player and the first real time
+        screenshots of the game.</p>
       </div>
 </div>
 
-### Tests utilisateurs
-Pour recueillir les ressentis que pouvaient avoir les joueurs, nous l'avons
-fait tester à des volontaires. De ces observations sont ressortis le besoin d'effectuer des
-ajustements et l'ajout nécessaire d'un guidage pour prendre en main les commandes.
-Ces retours ont contribués à une version améliorée, présentée au salon Laval Virtual.
+### User testing
+To collect the players feelings, we ma
+
+Pour recueillir les ressentis que pouvaient avoir les joueurs, we did test with
+voluntary. With these observations, we saw adjustments were needed, just as the
+need of a tutorial to discover the commands.
+This feedback contributed to an enhanced version, presented at Laval Virtual.
 
 <div class="thumbnail">
       <img src="revell/usertesting.png" class="img-responsive" alt="Aperçus du développement">
       <div class="caption">
-        <p>Séance de test d'utilisation </p>
+        <p>User testing session/p>
       </div>
 </div>

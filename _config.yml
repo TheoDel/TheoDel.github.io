@@ -28,6 +28,7 @@ defaults:
       path: ""
       type: "projects"
     values:
+      lang: "fr"
       layout: "project"
 
 #Build settings

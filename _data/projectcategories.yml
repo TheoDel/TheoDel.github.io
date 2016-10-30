@@ -1,24 +1,32 @@
 ux:
     name: User Experience
+    name-en: User Experience
     color: danger
 dev:
     name: Développement
+    name-en: Development
     color: success
 study:
     name: Etude
+    name-en: Study
     color: primary
 ui:
     name: User Interface
+    name-en: User Interface
     color: warning
 graphism:
     name: Graphisme
+    name-en: Graphic Design
     color: info
 product:
     name: Produit
+    name-en: Product/Device
     color: default
 rv:
     name: Réalité Virtuelle
+    name-en: Virtual Reality
     color: default
 mobil:
     name: Dev. Mobile
+    name-en: Mobile Dev
     color: default

@@ -1,13 +1,14 @@
 ---
-title : "Etude d'utilisation - Le Drive"
+lang: en
+title : "User study - The Drive"
 icone: "drive.png"
 order: 1
 
-desc : "Etude et tests utilisateurs du service de commande Drive"
+desc : "Study and user testing of the 'Drive' order service"
 headerimage: "drive/header.png"
-displaydate: "Automne 2015"
+displaydate: "Fall 2015"
 context: "Université de Technologie de Compiègne"
-team: "Le projet a été réalisé avec 2 autres étudiants."
+team: "The project was made with two other students."
 
 projectcategories:
    - name : study
@@ -19,62 +20,62 @@ projectcategories:
 
 ---
 
-Nous avons dans ce projet **observé de nouveaux utilisateurs** face au service de **courses en ligne**
-du "Drive", en relevant les points fonctionnels et à améliorer.
-Celui-ci regroupe 2 parties : 
-- La commande en ligne des produits, le choix du moment de retrait.
-- Le retrait physique dans le magasin en voiture.
+In this project, we **observed new users** with the **"Drive" online ordering service**,
+noting the functional parts and possible improvements.
+This service has two parts :
+- The online ordering, with the withdrawal moment choice
+- The physical withdrawal at the shop, in car
 
-A partir de ces observations, nous avons formulé des pistes d'améliorations et des
-propositions pour l'interface de la commande.
+With these observations, we gave some improvement tracks and proposals for
+the ordering interface.
 
-_(Ce projet a été réalisé en-dehors de toute demande de la chaîne de magasin choisie, ici, Carrefour.)_
+_(This project was made outside of any order of the chosen retail chain, in this case, Carrefour.)_
 
 ---
 
-## Méthodologie
+## Methodology
 
-* **Etude préalable** : historique du service, état du marché, avantages/inconvénients, utilisateurs directs/indirects...
-* Etablissement d'un **protocole d'observation** (sur la commande et le retrait)
-    * **Scénarios** : instructions types (ajouter un produit, passer la commande)
-    * **Notes d'observations** : attitude, erreurs, remarques verbales...
-    * **Questions après l'utilisation** : ressentis, appréciations
-    * **Evaluation quantifiée** par les sujets : graphisme, plaisir, simplicité
-* **Séances de test** avec un panel de 5 nouveaux utilisateurs, de différents âges et niveaux d'utilisation d'internet.
-* Compilation des **résultats**
-* Vérification des **critères d'ergonomie** (Bastien, J.M.C., Scapin, D.)
-* Propositions d'améliorations
-* **Maquettage** de nouvelles interfaces
+* **Prior study** : history of the service, state of the market, pros and cons, direct/incidental users...
+* Writing a **observation protocol** (on the order and the withdrawal)
+    * **Scenarios** : typical instructions (add a product, confirm the command)
+    * **Observations notes** : attitude, errors, verbal comments...
+    * **Questions after the use** : feelings, appreciations
+    * **Quantified evaluations** by the user : graphic design, simplicity, pleasure...
+* Running the **testing sessions** with a panel of 5 new customers, of different ages and level of internet using.
+* Compiling the **results**
+* Checking the **ergonomic criteria** (Bastien, J.M.C., Scapin, D.)
+* Enhancement proposals
+* **Wireframing** of new interfaces
 
-## Résultats et propositions
+## Results and proposals
 
-Les résultats des tests ont montré que les principaux problèmes venaient lors de la
-commande en ligne, alors que le retrait se passait sans encombre. Nous avons donc
-concentré notre réflexion sur la commande en ligne.
+The tests results showed that the main problems happened during the online order,
+but the physical withdrawal occurred without problem. We then focused our reflexion
+on the online order.
 
 <div class="thumbnail">
       <img src="drive/results.png" class="img-responsive" alt="Diagrammes de résultats de test">
       <div class="caption">
-        <p>Extraits des résultat de l'évaluation quantifiée par les utilisateurs. Si l'on ne peut évidemment pas tirer de
-        statistiques chiffrées avec ce panel, on observe néanmoins de façon générale de nettes difficultés 
-        d'utilisation sur la partie web</p>
+        <p>Extracts of the quantified evaluation results by the users. 
+        Of course, we can't draw some statistics with this reduced panel,
+        but we clearly see some problems on the web part.</p>
       </div>
 </div>
 
-Les **principaux soucis** sont liés à la différence entre un magasin physique et numérique :
-un design du site jugé généralement _trop complexe_, la difficulté pour _trouver un produit_
-et à _estimer leur taile_ réelle.
+The **main problems** are linked to the inherent difference between a physical
+and online market : the website is judged _too complex_, it's difficult to _find
+a product_ and to estimate their _actual size_.
 
-De nouvelles fonctionnalités ont donc été proposés pour améliorer l'expérience du site Drive :
-* Représenter les rayons de l'interface sous forme spatialisée d'un plan : les utilisateurs sont plus
-susceptibles de se retrouver dans des rayons qui sont représentés comme ceux qu'ils connaissent
-dans les magasins physiques.
-* Proposer un service "tour du magasin" : afin de ne rien oublier, le site peut guider
-l'utilisateur à travers chaque rayon avec une gamme de produits, comme il le ferait dans un magasin physique
-* Revoir le graphisme avec un code couleur réduit et signifiant
-* Optimiser la barre de recherche (problème technique) avec auto-complétion et la classification des produits
+New features have then been proposed to enhance the user experience of the Drive website :
+* Display the products categories on a map : users are more likely to find products if they're
+represented in the same way as their physical store.
+* Suggest a "shop tour" : the website can guide through each section so he's less
+likely to forget something, just as in a real shop.
+* Redesign the website with a significant and reduced color code.
+* Optimize the product classification and search bar (technical problem) with an auto-completion feature.
 
-Nous avons donc créé une nouvelle maquette de site web essayant d'intégrer ces recommandations :
+
+So we created a new model of website trying to integrate these recommendations:
 
 <div id="carousel-drive" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -97,27 +98,26 @@ Nous avons donc créé une nouvelle maquette de site web essayant d'intégrer ce
     <div class="item">
       <img src="drive/planche2.png" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
-        Dans le parcours du magasin (dont le plan est à gauche), on peut
-        visiter chaque rayon à la suite. Le panier prend la forme d'un ticket 
-        de caisse (en bas à droite)
+        In the shop tour (whose map is on the left), the user can visit each section.
+        The basket takes the form of a receipt (on the bottom right).
       </div>
     </div>
     <div class="item">
       <img src="drive/planche3.png" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
-        La barre de recherche permet de revenir chercher un objet oublié ou non trouvé
+        If the user forget or didn't find a product, they can use the search bar.
       </div>
     </div>
     <div class="item">
       <img src="drive/planche4.png" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
-        L'écran de validation prend la forme du ticket de caisse.
+        The validation screen looks like a receipt.
       </div>
     </div>
     <div class="item">
       <img src="drive/planche5.png" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
-        Un écran confirme le lieu et heure de retrait avant le paiement.
+        A screen validates the moment and location of withdrawal before the payment.
       </div>
     </div>
     

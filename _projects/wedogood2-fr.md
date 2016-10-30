@@ -1,11 +1,10 @@
 ---
-lang: en
-title : "WE DO GOOD Dashboard V2"
+title : "Tableau de bord WE DO GOOD V2"
 icone: "wdg2.png"
 order: 3
 
-desc : "Redesigning dashboard for the crowdfunding platform WE DO GOOD"
-displaydate: "Summer 2016"
+desc : "Refonte du tableau de bord pour la plateforme de financement participatif WE DO GOOD"
+displaydate: "Eté 2016"
 context: "WE DO GOOD"
 
 projectcategories:
@@ -67,16 +66,19 @@ technologies:
 </div>
 <br/>
 
-After my 2015 internship with the crowdfunding platform [WE DO GOOD](http://www.wedogood.co), 
-I worked two months in 2016 to redesign this tool, through it conception to
-the develoment of a functional part of it.
-This dashboard is directed to the project creators, where they can monitor
-and manage their online fundraising. 
+Suite à mon stage de fin de Licence avec la plateforme de financement participatif 
+de [WE DO GOOD](http://www.wedogood.co), j'ai en 2016 travaillé deux mois pour 
+effectuer une refonte de cet outil. Celle-ci a mené de sa conception à une
+partie fonctionnelle de son développement.
+Celui-ci est destiné aux porteurs de projets pour monitorer et gérer leur
+levée de fonds. 
 
-When I arrived, the reflexion about the customer path and the dashboard structure
-had already been made. The redesign had to give a better learning time and guide
-the project creators, in order to facilitate the WE DO GOOD support team.
-The choice of tools to integrate was made with observations of their job habits.
+En arrivant, la réflexion sur le parcours client global et la structure du
+tableau de bord avait été menée. La refonte devait amener une meilleure
+prise en main et guider les porteurs de projet pour les inciter à l'utiliser
+et faciliter ainsi le travail de l'équipe d'accompagnement.
+Le choix des outils à intégrer s'est fait avec une observation des habitudes
+de travail de ces derniers.
 
-The dashboard then took a more traditional webapp appearance, where users
-can juggle with a tool or another.
+Le tableau de bord a ainsi pris la forme d'une webapp traditionnelle,
+permettant de jongler d'un outil à l'autre.

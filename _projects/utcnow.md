@@ -1,13 +1,14 @@
 ---
+lang: en
 title : "UTC Now"
 icone: "utcnow.png"
 order: 1
 
-desc : "Application mobile d'agenda partagé pour l'UTC"
+desc : "A shared agenda mobile app for UTC"
 headerimage: "utcnow/header.jpg"
-displaydate: "Printemps 2016"
+displaydate: "Spring 2016"
 context: "Université de Technologie de Compiègne"
-team: "Dans un groupe de 4 étudiants ingénieurs, mes missions se sont surtout centrées sur le maquettage et la structure de l'application."
+team: "In a 4 students group, my missions were mainly center on the sketching and structure of the app."
 
 projectcategories:
    - name : dev
@@ -27,50 +28,42 @@ technologies:
 
 ---
 
-**UTC Now** est un projet d'**application mobile** d'agenda centralisant 
-tous les évènements de l'Université de Technologie de Compiègne.
-Ceux-ci peuvent être issus des évènements officiels (conférences, 
-vie de l'établissement...), des emplois du temps, ou même proposés par les
-utilisateurs via l'application.
+**UTC Now** is a **mobile application** project. This agenda centralizes all the
+events occuring at the University of Technology of Compiègne. They can come from
+institutional events, timetables, associations, or even suggested by students themselves.
 
-L'objectif était d'offrir une représentation centralisée et en direct de la multitude 
-d'évènements simultanés tout en favorisant l'organisation et la sérendipité 
-de la vie étudiante, sportive, associative... via cette plateforme.
+The goal was to offer a centralized and live representation of the multiple events,
+encouraging serendipity and facilitation the organization of students life with this platform.
 
 ---
 
-## Méthodologie
+## Project Methodology
 
-### Concept et étude préalable
+### Concept and prior study
 
-Outre le concept de départ de représenter tous les évènements de l'UTC (et ce
-sur différents supports: appli, webTV..), nous avons recueilli des **idées
-et attentes des étudiants**, grâce à un **questionnaire en ligne**. De celui-ci nous
-avons ainsi tiré de nombreuses idées complémentaires qui auraient pu être
-développées en ajout dans le futur (aperçu des places de parking, des salles
-de cours libres...)
+With our initial idea, we collected the **ideas and expectations of students**,
+with an **online survey**. We drew some complementary ideas that could be developed
+in future updates (view the available classrooms, parking spaces...)
 
 <img src="utcnow/notes.png" class="img-responsive" alt="Maquettes de l'appli">
 
-### Maquettage
-La création de maquettes s'est faite conjointement avec une réflexion sur 
-l'onthologie des éléments et des fonctionnalités de base. L'utilisation
-d'invision a ensuite permis de simuler le comportement de l'utilisation
-de l'application.
+### Wireframing
+The sketching of the app screens was made with the reflexion about elements
+structures and the basic features. I then used inVision to simulate the behaviour
+of the application use.
 
 <div class="thumbnail">
       <img src="utcnow/archi.png" class="img-responsive" alt="Maquettes de l'appli">
       <div class="caption">
-        <p>Maquette et interactions des écrans principaux</p>
+        <p>Wireframes and interactions on the main screens</p>
       </div>
 </div>
 
-### Développement
-Le développement a été fait avec ionic, pour son déploiement multi-plateforme 
-suffisant à nos besoins et la popularité de ce framework. Conjointement à
-l'application, une partie de l'équipe a développé une API pour 
-gérer les données des évènements et un serveur pour récupérer indépendemment 
-les évènements sur les portails de l'UTC.
+### Development
+The development was made with Ionic, for it multiplatform deployment sufficient
+for our needs and the popularity of this framework. At the same time, a part
+of the team developed an API for the events data, and a server made to retrieve
+the events on the UTC website and databases.
 
 <div id="carousel-utcnow-final" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->

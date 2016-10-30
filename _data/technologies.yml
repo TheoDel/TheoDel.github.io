@@ -8,7 +8,7 @@ angularjs:
     name: Framework AngularJS
     image: angularjs.png
 unity:
-    name: Moteur de jeu Unity3D
+    name: Game Engine Unity3D
     image: unity.png
 csharp:
     name: Langage C#
