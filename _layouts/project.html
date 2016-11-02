@@ -28,13 +28,11 @@
                     </ul>
                     <p>{% for projectcategory in page.projectcategories %}
                         {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
-                        <span class="label label-{{categorydata.color}}">
-                            {% if page.lang == "fr" %}
-                            {{categorydata.name}}
-                            {% endif %} {% if page.lang == "en" %}
-                            {{categorydata.name-en}}
-                            {% endif %}
-                        </span>
+                        <span class="label label-{{categorydata.color}}">{%
+                            if page.lang == "fr" %}{{categorydata.name}}{%
+                            endif %}{%
+                            if page.lang == "en" %}{{categorydata.name-en}}{%
+                            endif %}</span>&nbsp;
                         {% endfor %}</p>
                 </div>
             </div>
@@ -58,7 +56,11 @@
             {% if page.team != nil %}
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Equipe</h3>
+                    <h3 class="panel-title">{%
+                        if page.lang == "fr" %}&Eacute;quipe{%
+                        endif %}{%
+                        if page.lang == "en" %}Project team{%
+                        endif %}</h3>
                 </div>
                 <div class="panel-body">
                     <ul class="fa-ul">

@@ -1,7 +1,7 @@
 ---
 title : "Tableau de bord WE DO GOOD V2"
 icone: "wdg2.png"
-order: 3
+order: 10
 
 desc : "Refonte du tableau de bord pour la plateforme de financement participatif WE DO GOOD"
 displaydate: "Eté 2016"

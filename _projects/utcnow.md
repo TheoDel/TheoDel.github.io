@@ -2,7 +2,7 @@
 lang: en
 title : "UTC Now"
 icone: "utcnow.png"
-order: 1
+order: 6
 
 desc : "A shared agenda mobile app for UTC"
 headerimage: "utcnow/header.jpg"

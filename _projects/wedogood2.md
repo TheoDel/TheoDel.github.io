@@ -2,7 +2,7 @@
 lang: en
 title : "WE DO GOOD Dashboard V2"
 icone: "wdg2.png"
-order: 3
+order: 10
 
 desc : "Redesigning dashboard for the crowdfunding platform WE DO GOOD"
 displaydate: "Summer 2016"

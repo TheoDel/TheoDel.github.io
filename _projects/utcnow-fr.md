@@ -1,7 +1,7 @@
 ---
 title : "UTC Now"
 icone: "utcnow.png"
-order: 1
+order: 6
 
 desc : "Application mobile d'agenda partagé pour l'UTC"
 headerimage: "utcnow/header.jpg"

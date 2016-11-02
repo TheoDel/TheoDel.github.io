@@ -3,7 +3,7 @@ lang : fr
 title : "revell"
 icone: "revell.png"
 mention: <i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Prix Laval Virtual</span>
-order: 2
+order: 7
 
 desc : "Expérience de perception alternative en réalité virtuelle"
 headervideo: "https://www.youtube.com/embed/JZDoS4jbZEA"

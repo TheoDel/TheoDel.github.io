@@ -2,7 +2,7 @@
 lang: en
 title : "User study - The Drive"
 icone: "drive.png"
-order: 1
+order: 5
 
 desc : "Study and user testing of the 'Drive' order service"
 headerimage: "drive/header.png"
