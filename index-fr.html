@@ -2,10 +2,9 @@
 layout: page
 lang: fr
 ---
-<br/>
-    <div id="about">
-        {% include presentation-fr.html %}
-    </div>
+<div id="about">
+    {% include presentation-fr.html %}
+</div>
 
 <div id="projects">
     <div class="container">
@@ -17,6 +16,7 @@ lang: fr
             {% assign sorted_projects = site.projects | sort: 'order' | reverse %}
             {% for project in sorted_projects %}
             {% if project.lang == "fr" %}
+
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <a href="{{ project.url }}" class="thumbnail project-thumb">
                     <img src="media/projets-icones/{{project.icone}}"/>

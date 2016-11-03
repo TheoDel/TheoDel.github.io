@@ -17,4 +17,31 @@ jQuery(document).ready( function($) {
             return true;
         }
     });
+
+    //Animations CSS
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+        }
+    });
+
+    $('a[href="#contact"]').click(function(e) {
+        //Surbrillance
+        $('#contact').addClass("highlight");
+        setTimeout(function()
+        {
+            $('#contact').removeClass("highlight");
+        }, 2000);
+
+        //Animation des boutons
+        $('#contact .btn').each(function(index){
+            setTimeout(function()
+            {
+                $('#contact .btn').eq(index).animateCss('tada');
+            }, 300+300*index);
+        });
+    });
 });

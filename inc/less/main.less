@@ -10,13 +10,24 @@ body{
 /*
 Home page
 */
+#about {
+  min-height: calc(~"100vh - 50px");
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .home-header {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-bottom: 40px;
-  background-image: url("../media/map.png");
-  color: white;
+  text-align: center;
+  margin-bottom: @navbar_offset;
+}
+
+#projects {
+  margin-top: -@navbar_offset;
+  padding-top: @navbar_offset;
 }
 
 .project-grid .project-thumb {
@@ -86,6 +97,19 @@ Home page
 #contact{
   margin-bottom: 0px;
   margin-top: 20px;
+  transition: all 1s ease 0s;
+
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#contact.highlight{
+  color: darken(@text-color,10%);
+  background-color: darken(@jumbotron-bg,10%);
+  border-top-color: darken(@navbar-inverse-bg, 0%);
+
+  webkit-box-shadow: inset 0 2px 0 fade(@brand-primary, 50%);
+  box-shadow: inset 0 2px 0 fade(@brand-primary, 80%);
 }
 
 /*
