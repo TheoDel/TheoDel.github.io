@@ -64,6 +64,7 @@ est ainsi gagné sur le rangement, le nettoyage, et ajoute un côté ludique
 
 Pour répondre à d'autres problèmes que nous avons relevés dans notre analyse,
 la conception a pris en compte de nombreux détails :
+
 - Une place est réservée dans la boîte pour des **couverts**.
 - Un élastique maintient la boîte fermée en transport.
 - Les récipients s'emboîtent dans des **picots au fond de la boîte** pour mieux les maintenir.

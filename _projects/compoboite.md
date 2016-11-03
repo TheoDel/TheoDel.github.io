@@ -30,10 +30,10 @@ a product to satisfy and provide functionality to a user.
 
 We first analysed our subject, the lunchboxes :
 
+
 - What are the context of use, the users, theirs motivations ?
 - What are the main problems with existing products : need of cutlery, congestion, tightness... 
-- The environmental and societal aspect : anti-waste, more environmental than the takeaway food,
-the pleasure of the food "homemade"...
+- The environmental and societal aspect : anti-waste, more environmental than the takeaway food, the pleasure of the "homemade" food...
 - The existing formal references
 
 We then picked a persona among the ones proposed : a student whose main 

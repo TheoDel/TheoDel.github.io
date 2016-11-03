@@ -68,6 +68,7 @@ a product_ and to estimate their _actual size_.
 
 New features have then been proposed to enhance the user experience of the Drive website :
 
+
 - Display the products categories on a map : users are more likely to find products if they're
 represented in the same way as their physical store.
 - Suggest a "shop tour" : the website can guide through each section so he's less
