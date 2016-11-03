@@ -66,13 +66,14 @@ un design du site jugé généralement _trop complexe_, la difficulté pour _tro
 et à _estimer leur taile_ réelle.
 
 De nouvelles fonctionnalités ont donc été proposés pour améliorer l'expérience du site Drive :
-* Représenter les rayons de l'interface sous forme spatialisée d'un plan : les utilisateurs sont plus
+
+- Représenter les rayons de l'interface sous forme spatialisée d'un plan : les utilisateurs sont plus
 susceptibles de se retrouver dans des rayons qui sont représentés comme ceux qu'ils connaissent
 dans les magasins physiques.
-* Proposer un service "tour du magasin" : afin de ne rien oublier, le site peut guider
+- Proposer un service "tour du magasin" : afin de ne rien oublier, le site peut guider
 l'utilisateur à travers chaque rayon avec une gamme de produits, comme il le ferait dans un magasin physique
-* Revoir le graphisme avec un code couleur réduit et signifiant
-* Optimiser la barre de recherche (problème technique) avec auto-complétion et la classification des produits
+- Revoir le graphisme avec un code couleur réduit et signifiant
+- Optimiser la barre de recherche (problème technique) avec auto-complétion et la classification des produits
 
 Nous avons donc créé une nouvelle maquette de site web essayant d'intégrer ces recommandations :
 

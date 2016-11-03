@@ -29,6 +29,7 @@ a product to satisfy and provide functionality to a user.
 ### Analysis of the subject and concept
 
 We first analysed our subject, the lunchboxes :
+
 - What are the context of use, the users, theirs motivations ?
 - What are the main problems with existing products : need of cutlery, congestion, tightness... 
 - The environmental and societal aspect : anti-waste, more environmental than the takeaway food,
@@ -40,6 +41,7 @@ constraint is the lack of time. Our proposition is then based on the problem
 "**_How to save time on the takeaway?_**"
 
 The CompoBoîte has 2 main components :
+
 - **The compartments** containing food, replacing the usual storage boxes,
 they have different sizes but the same height.
 - **The box**, larger, is used to compose the meal, with the available leftovers stored
@@ -59,6 +61,7 @@ storage, and is a ludic way to prepare the meal.
 
 In order to answer some other problems raised in our analysis, we designed a
 lot of other details :
+
 - There is a compartment in the box for **cutlery**
 - An elastic keeps the box closed.
 - Containers fit into the **pins at the bottom of the box**, for a better support.

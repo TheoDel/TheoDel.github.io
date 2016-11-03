@@ -30,6 +30,7 @@ d'un produit destiné à satisfaire et proposer des fonctionnalités à un utili
 ### Analyse du sujet et concept
 
 Nous avons tout d'abord procédé à une large analyse du sujet, les boîtes repas :
+
 - Quel est le contexte, ses utilisateurs, leurs motivations ?
 - Quels sont les problèmes d'usage courants : encombrement, étanchéité, besoin de couverts...
 - L'aspect sociétal et environnemental : anti-gaspillage, meilleur bilan 
@@ -41,6 +42,7 @@ contraintes principales est le manque de temps. Notre proposition voulait donc r
 à une problématique "**_Comment gagner du temps sur son repas à emporter ?_**"
 
 La CompoBoîte a 2 principaux composants :
+
 - **Les compartiments** contenant la nourriture se substituent aux boîtes de
 conservation traditionnelles, elles sont en différentes tailles mais de même hauteur.
 - **La boîte**, plus grande, est utilisée pour composer son repas, au gré de 

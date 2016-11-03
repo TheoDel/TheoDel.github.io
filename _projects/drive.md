@@ -67,12 +67,13 @@ and online market : the website is judged _too complex_, it's difficult to _find
 a product_ and to estimate their _actual size_.
 
 New features have then been proposed to enhance the user experience of the Drive website :
-* Display the products categories on a map : users are more likely to find products if they're
+
+- Display the products categories on a map : users are more likely to find products if they're
 represented in the same way as their physical store.
-* Suggest a "shop tour" : the website can guide through each section so he's less
+- Suggest a "shop tour" : the website can guide through each section so he's less
 likely to forget something, just as in a real shop.
-* Redesign the website with a significant and reduced color code.
-* Optimize the product classification and search bar (technical problem) with an auto-completion feature.
+- Redesign the website with a significant and reduced color code.
+- Optimize the product classification and search bar (technical problem) with an auto-completion feature.
 
 
 So we created a new model of website trying to integrate these recommendations:

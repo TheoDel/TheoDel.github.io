@@ -36,8 +36,7 @@ The surfaces are initially invisible, but when the user hands touch them, they
 become visible. The perceptive feedback is then visual and not haptic.
 
 <div class="alert alert-danger"><p><i class="fa fa-trophy" aria-hidden="true">
-</i>&nbsp;<b>revell</b> won the <b>Prix "Virtual Fantasy award" at <a href="http://www.laval-virtual.org/">Laval Virtual</a></b>, auquel il
-a été présenté au grand public.</p>
+</i>&nbsp;<b>revell</b> won the <b>Prix "Virtual Fantasy award" at <a href="http://www.laval-virtual.org/">Laval Virtual</a></b>.</p>
 <p>Laval Virtual is a leader international exhibition on virtual technologies and uses. 
 Our project was presented during the exhibition, then awarded among a dozen student 
 projects in the demo category. The jury loved the original physical and cognitive 
