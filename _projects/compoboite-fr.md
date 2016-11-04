@@ -37,6 +37,13 @@ Nous avons tout d'abord procédé à une large analyse du sujet, les boîtes rep
 environnemental que la nourriture à emporter, plaisir de la nourriture "faite maison"... 
 - Le référentiel formel existant
 
+<div class="thumbnail">
+      <img src="compoboite/scenariooriginal.jpg" class="img-responsive" alt="Scénario d'utilisation d'une boîte repas classique">
+      <div class="caption">
+        <p>Scénario d'utilisation d'une boîte repas classique</p>
+      </div>
+</div>
+
 Nous avons ensuite choisi un des persona proposés, celui d'un étudiant dont une des
 contraintes principales est le manque de temps. Notre proposition voulait donc répondre
 à une problématique "**_Comment gagner du temps sur son repas à emporter ?_**"

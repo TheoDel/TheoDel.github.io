@@ -36,6 +36,13 @@ We first analysed our subject, the lunchboxes :
 - The environmental and societal aspect : anti-waste, more environmental than the takeaway food, the pleasure of the "homemade" food...
 - The existing formal references
 
+<div class="thumbnail">
+      <img src="compoboite/scenariooriginal.jpg" class="img-responsive" alt="Scenario of the lunchbox use">
+      <div class="caption">
+        <p>Scenario of a classic lunchbox use</p>
+      </div>
+</div>
+
 We then picked a persona among the ones proposed : a student whose main 
 constraint is the lack of time. Our proposition is then based on the problem 
 "**_How to save time on the takeaway?_**"
