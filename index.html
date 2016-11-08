@@ -34,7 +34,7 @@ lang: en
                                 <p>
                                     {% for projectcategory in project.projectcategories %}
                                     {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
-                                    <span class="label label-{{categorydata.color}}">{{categorydata.name-en}}</span>
+                                    <span class="label label-{{categorydata.color}}"><i class="fa fa-{{categorydata.icon}}" aria-hidden="true"></i>&nbsp;{{categorydata.name-en}}</span>
                                     {% endfor %}
                                 </p>
                             </div>

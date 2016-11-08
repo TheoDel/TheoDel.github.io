@@ -2,22 +2,27 @@ ux:
     name: User Experience
     name-en: User Experience
     color: danger
+    icon: user-circle
 dev:
     name: Développement
     name-en: Development
     color: success
+    icon: code
 study:
     name: Etude
     name-en: Study
     color: primary
+    icon: book
 ui:
     name: User Interface
     name-en: User Interface
     color: warning
+    icon: desktop
 graphism:
     name: Graphisme
     name-en: Graphic Design
     color: info
+    icon: paint-brush
 product:
     name: Produit
     name-en: Product/Device
@@ -26,7 +31,9 @@ rv:
     name: Réalité Virtuelle
     name-en: Virtual Reality
     color: default
+    
 mobil:
     name: Dev. Mobile
     name-en: Mobile Dev
     color: default
+    icon: mobile-phone
