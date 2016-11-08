@@ -25,3 +25,15 @@ jquery:
 invision:
     name: inVision
     image: invision.png
+arduino:
+    name: Arduino
+    image: arduino.png
+photoshop:
+    name: Adobe Photoshop
+    image: photoshop.png
+illustrator:
+    name: Adobe Illustrator
+    image: illustrator.png
+processing:
+    name: Processing
+    image: processing.png

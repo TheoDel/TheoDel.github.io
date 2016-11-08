@@ -6,7 +6,7 @@ order: 4
 
 desc : "A lunchbox thought for everyday"
 headerimage: "compoboite/header.png"
-displaydate: "Automne 2015"
+displaydate: "Fall 2015"
 context: "Université de Technologie de Compiègne"
 team: "The project was made with another student, with equal roles."
 

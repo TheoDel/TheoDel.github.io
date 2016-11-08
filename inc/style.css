@@ -7084,10 +7084,14 @@ Home page
   background-size: cover;
   background-attachment: fixed;
 }
+#about .jumbotron {
+  background-color: #fafafae6;
+}
 .home-header {
   text-align: center;
   margin-bottom: 50px;
   text-shadow: 1px 1px 4px #ffffff;
+  color: black;
 }
 #projects {
   margin-top: -50px;

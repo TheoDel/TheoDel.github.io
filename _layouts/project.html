@@ -17,6 +17,22 @@
 </div>
 
 <div class="container page-project">
+    <div class="col-sm-8 col-md-9">
+        {% if page.headervideo != nil %}
+        <div class="project-header">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="{{page.headervideo}}" allowfullscreen></iframe>
+            </div>
+        </div>
+        {% endif %}
+        {% if page.headerimage != nil %}
+        <div class="project-header">
+            <img class="img-responsive" src="{{page.headerimage}}"/>
+        </div>
+        {% endif %}
+
+        {{ content }}
+    </div>
 
     <div class="col-sm-4 col-md-3 project-infos">
         <div class="row">
@@ -40,15 +56,19 @@
             {% if page.technologies != nil %}
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Technologies</h3>
+                    <h3 class="panel-title">{%
+                        if page.lang == "fr" %}Outils et technologies{%
+                        endif %}{%
+                        if page.lang == "en" %}Tools and technologies{%
+                        endif %}</h3>
                 </div>
                 <div class="panel-body">
-                <p>{% for techno in page.technologies %}
-                    {% assign technodata = site.data.technologies[techno] %}
-                    <img src="techno-icones/{{technodata.image}}" class="project-techno"
-                         data-toggle="tooltip" data-placement="bottom" title="{{technodata.name}}"/>
-                    {% endfor %}
-                </p>
+                    <p>{% for techno in page.technologies %}
+                        {% assign technodata = site.data.technologies[techno] %}
+                        <img src="techno-icones/{{technodata.image}}" class="project-techno"
+                             data-toggle="tooltip" data-placement="bottom" title="{{technodata.name}}"/>
+                        {% endfor %}
+                    </p>
                 </div>
             </div>
             {% endif %}
@@ -70,23 +90,6 @@
             </div>
             {% endif %}
         </div>
-    </div>
-
-    <div class="col-sm-8 col-md-9">
-        {% if page.headervideo != nil %}
-        <div class="project-header">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="{{page.headervideo}}" allowfullscreen></iframe>
-            </div>
-        </div>
-        {% endif %}
-        {% if page.headerimage != nil %}
-        <div class="project-header">
-            <img class="img-responsive" src="{{page.headerimage}}"/>
-        </div>
-        {% endif %}
-
-        {{ content }}
     </div>
 </div>
 
