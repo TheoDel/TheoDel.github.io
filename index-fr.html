@@ -22,9 +22,7 @@ lang: fr
                     <img src="media/projets-icones/{{project.icone}}"/>
 
                     {% if project.mention != nil %}
-                    <div class="mention alert alert-danger">
                         {{project.mention}}
-                    </div>
                     {% endif %}
 
                     <div class="project-desc-container">
@@ -35,7 +33,7 @@ lang: fr
                                 <p>
                                     {% for projectcategory in project.projectcategories %}
                                     {% assign categorydata = site.data.projectcategories[projectcategory.name] %}
-                                    <span class="label label-{{categorydata.color}}">{{categorydata.name}}</span>
+                                    <span class="label label-{{categorydata.color}}"><i class="fa fa-{{categorydata.icon}}" aria-hidden="true"></i>&nbsp;{{categorydata.name}}</span>
                                     {% endfor %}
                                 </p>
                             </div>

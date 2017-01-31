@@ -2,7 +2,7 @@
 lang: en
 title : "revell"
 icone: "revell.png"
-mention: <i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Laval Virtual Award</span>
+mention: <div class="mention alert alert-danger"><i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Laval Virtual Award</span></div>
 order: 7
 
 desc : "Alternative perception experience in Virtual Reality"
