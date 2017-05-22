@@ -1,7 +1,6 @@
 ---
 title : "Cadrythm"
 icone: "cadrythm.png"
-mention: <div class="mention alert alert-info"><i class="fa fa-flask" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Work in progress...</span></div>
 order: 15
 
 desc : "Un instrument de musique expérimental collaboratif"
@@ -25,10 +24,6 @@ Cadrythm est un instrument de musique où la musique dépend des interactions en
 Dans ce projet, je devais construire un prototype avec une expérience sensitive
 originale, en utilisant la technologie électronique Arduino, autour du thème
 de l'**attention conjointe**.
-
-<div class="alert alert-info"><p><i class="fa fa-flask" aria-hidden="true"></i>
-&nbsp; Ce projet est actuellement en développement !</p>
-</div>
 
 **Cadrythm** prend la forme d'un cadran avec lequel on peut interagir. Son bord
 est tactile et détermine ainsi la position du doigt lorsque celui-ci

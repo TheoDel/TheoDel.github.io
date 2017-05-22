@@ -1,6 +1,6 @@
 ---
 lang: en
-title : "Discook"
+title : "Quicook"
 icone: "discook.png"
 mention: <div class="mention alert alert-info"><i class="fa fa-flask" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Work in progress...</span></div>
 order: 17
@@ -23,3 +23,14 @@ technologies:
    - unity
 
 ---
+
+<div class="alert alert-info"><p><i class="fa fa-flask" aria-hidden="true"></i>
+&nbsp;This project is currently in development !</p>
+</div>
+
+<div class="thumbnail">
+      <img src="quicook/demo2.jpg" class="img-responsive" alt="Photo de Démonstration du prototype">
+      <div class="caption">
+        <p>Presentation of the concept and prototype during the Open Day of the ESAD (Art and design school of Amiens)</p>
+      </div>
+</div>

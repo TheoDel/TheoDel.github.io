@@ -90,6 +90,6 @@ This feedback contributed to an enhanced version, presented at Laval Virtual.
 <div class="thumbnail">
       <img src="revell/usertesting.png" class="img-responsive" alt="Aperçus du développement">
       <div class="caption">
-        <p>User testing session/p>
+        <p>User testing session</p>
       </div>
 </div>

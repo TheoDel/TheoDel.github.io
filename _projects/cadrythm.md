@@ -2,7 +2,6 @@
 lang: en
 title : "Cadrythm"
 icone: "cadrythm.png"
-mention: <div class="mention alert alert-info"><i class="fa fa-flask" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Work in progress...</span></div>
 order: 15
 
 desc : "An experimental collaborative music instrument"
@@ -25,10 +24,6 @@ technologies:
 Cadrythm is a music instrument where the melody depends on the interactions between players.
 In this project, I had to design a prototype with an original sensitive 
 experience, using the Arduino electronic technology, around the **joint attention** theme.
-
-<div class="alert alert-info"><p><i class="fa fa-flask" aria-hidden="true"></i>
-&nbsp;This project is currently in development !</p>
-</div>
 
 **Cadrythm** looks like an interactive dial. It edge is tactile, si it 
 can determine the position of the finger when it is touched.
