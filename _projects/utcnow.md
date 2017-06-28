@@ -8,7 +8,7 @@ desc : "A shared agenda mobile app for UTC"
 headerimage: "utcnow/header.jpg"
 displaydate: "Spring 2016"
 context: "Université de Technologie de Compiègne"
-team: "In a 4 students group, my missions were mainly center on the sketching and structure of the app."
+team: "In a 4 students group, my missions were mainly centered on the sketching and structure of the app."
 
 projectcategories:
    - name : dev
