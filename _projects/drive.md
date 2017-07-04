@@ -1,7 +1,7 @@
 ---
 lang: en
 title : "User study - The Drive"
-icone: "drive.png"
+icone: "drive.jpg"
 order: 5
 
 desc : "Study and user testing of the 'Drive' order service"
@@ -56,7 +56,7 @@ on the online order.
 <div class="thumbnail">
       <img src="drive/results.png" class="img-responsive" alt="Diagrammes de résultats de test">
       <div class="caption">
-        <p>Extracts of the quantified evaluation results by the users. 
+        <p>Extracts of the quantified evaluation results by the users.
         Of course, we can't draw some statistics with this reduced panel,
         but we clearly see some problems on the web part.</p>
       </div>
@@ -122,7 +122,7 @@ So we created a new model of website trying to integrate these recommendations:
         A screen validates the moment and location of withdrawal before the payment.
       </div>
     </div>
-    
+
   </div>
 
   <!-- Controls -->

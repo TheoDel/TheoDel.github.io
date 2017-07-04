@@ -1,6 +1,6 @@
 ---
 title : "La CompoBoîte"
-icone: "compoboite.png"
+icone: "compoboite.jpg"
 order: 4
 
 desc : "Une boîte repas pensée pour la vie de tous les jours"
@@ -16,7 +16,7 @@ projectcategories:
 ---
 
 
-La CompoBoîte est une boîte repas pour facilement emporter à l'extérieur 
+La CompoBoîte est une boîte repas pour facilement emporter à l'extérieur
 un repas préparé, à partir de ses restes alimentaires.
 
 Dans ce **projet d'initiation au design produit**, nous devions concevoir un objet lié aux
@@ -33,8 +33,8 @@ Nous avons tout d'abord procédé à une large analyse du sujet, les boîtes rep
 
 - Quel est le contexte, ses utilisateurs, leurs motivations ?
 - Quels sont les problèmes d'usage courants : encombrement, étanchéité, besoin de couverts...
-- L'aspect sociétal et environnemental : anti-gaspillage, meilleur bilan 
-environnemental que la nourriture à emporter, plaisir de la nourriture "faite maison"... 
+- L'aspect sociétal et environnemental : anti-gaspillage, meilleur bilan
+environnemental que la nourriture à emporter, plaisir de la nourriture "faite maison"...
 - Le référentiel formel existant
 
 <div class="thumbnail">
@@ -52,7 +52,7 @@ La CompoBoîte a 2 principaux composants :
 
 - **Les compartiments** contenant la nourriture se substituent aux boîtes de
 conservation traditionnelles, elles sont en différentes tailles mais de même hauteur.
-- **La boîte**, plus grande, est utilisée pour composer son repas, au gré de 
+- **La boîte**, plus grande, est utilisée pour composer son repas, au gré de
 son humeur et des restes disponibles en y rangeant les compartiments spécialement
 conçus pour rentrer dedans, selon un système de grille.
 
@@ -82,20 +82,20 @@ il garde une épaisseur correcte, pouvant se ranger comme un ordinateur dans le 
 
 ### Matériaux, écoconception
 Ce produit a été réfléchi en prenant en compte l'aspect d'écoconception, par
-une observation de son cycle de vie. 
+une observation de son cycle de vie.
 
 Bien que la fabrication et la fin du vie du produit aient un impact élevés, l'objet est
-destiné à être utilisé de nombreuses fois, en faisant à long-terme 
+destiné à être utilisé de nombreuses fois, en faisant à long-terme
 un produit probablement plus responsable qu'un emballage jetable.
 
 #### Matériaux principaux utilisés
-- **PBT** : Plastique solide et résistant aux variations de températures, pour 
+- **PBT** : Plastique solide et résistant aux variations de températures, pour
 le fond des récpients et la boîte. Son inconvénient est néanmoins qu'il n'est
 aujourd'hui pas recyclable.
 - **Polypropylène** : Plastique souple transparent recyclable, utilisé pour les
 couvercle des récipients
 
-### Prototypage 
+### Prototypage
 Nous avons rapidement prototypé notre objet (carton, modélisation puis imprimante 3D)
 pour en vérifier le fonctionnement et les dimensions. Suite à quoi, nous avons revu
 des points de détail (dimensionnement, prise en main...)

@@ -1,6 +1,6 @@
 ---
 title : "UTC Now"
-icone: "utcnow.png"
+icone: "utcnow.jpg"
 order: 6
 
 desc : "Application mobile d'agenda partagé pour l'UTC"
@@ -27,14 +27,14 @@ technologies:
 
 ---
 
-**UTC Now** est un projet d'**application mobile** d'agenda centralisant 
+**UTC Now** est un projet d'**application mobile** d'agenda centralisant
 tous les évènements de l'Université de Technologie de Compiègne.
-Ceux-ci peuvent être issus des évènements officiels (conférences, 
+Ceux-ci peuvent être issus des évènements officiels (conférences,
 vie de l'établissement...), des emplois du temps, ou même proposés par les
 utilisateurs via l'application.
 
-L'objectif était d'offrir une représentation centralisée et en direct de la multitude 
-d'évènements simultanés tout en favorisant l'organisation et la sérendipité 
+L'objectif était d'offrir une représentation centralisée et en direct de la multitude
+d'évènements simultanés tout en favorisant l'organisation et la sérendipité
 de la vie étudiante, sportive, associative... via cette plateforme.
 
 ---
@@ -53,7 +53,7 @@ de cours libres...)
 <img src="utcnow/notes.png" class="img-responsive" alt="Maquettes de l'appli">
 
 ### Maquettage
-La création de maquettes s'est faite conjointement avec une réflexion sur 
+La création de maquettes s'est faite conjointement avec une réflexion sur
 l'onthologie des éléments et des fonctionnalités de base. L'utilisation
 d'invision a ensuite permis de simuler le comportement de l'utilisation
 de l'application.
@@ -66,10 +66,10 @@ de l'application.
 </div>
 
 ### Développement
-Le développement a été fait avec ionic, pour son déploiement multi-plateforme 
+Le développement a été fait avec ionic, pour son déploiement multi-plateforme
 suffisant à nos besoins et la popularité de ce framework. Conjointement à
-l'application, une partie de l'équipe a développé une API pour 
-gérer les données des évènements et un serveur pour récupérer indépendemment 
+l'application, une partie de l'équipe a développé une API pour
+gérer les données des évènements et un serveur pour récupérer indépendemment
 les évènements sur les portails de l'UTC.
 
 <div id="carousel-utcnow-final" class="carousel slide" data-ride="carousel">

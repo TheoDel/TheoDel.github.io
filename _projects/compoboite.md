@@ -1,7 +1,7 @@
 ---
 lang: en
 title : "La CompoBoîte"
-icone: "compoboite.png"
+icone: "compoboite.jpg"
 order: 4
 
 desc : "A lunchbox thought for everyday"
@@ -32,7 +32,7 @@ We first analysed our subject, the lunchboxes :
 
 
 - What are the context of use, the users, theirs motivations ?
-- What are the main problems with existing products : need of cutlery, congestion, tightness... 
+- What are the main problems with existing products : need of cutlery, congestion, tightness...
 - The environmental and societal aspect : anti-waste, more environmental than the takeaway food, the pleasure of the "homemade" food...
 - The existing formal references
 
@@ -43,8 +43,8 @@ We first analysed our subject, the lunchboxes :
       </div>
 </div>
 
-We then picked a persona among the ones proposed : a student whose main 
-constraint is the lack of time. Our proposition is then based on the problem 
+We then picked a persona among the ones proposed : a student whose main
+constraint is the lack of time. Our proposition is then based on the problem
 "**_How to save time on the takeaway?_**"
 
 The CompoBoîte has 2 main components :
@@ -87,14 +87,14 @@ than disposable packaging of takeaway food.
 
 #### Main materials used
 - **PBT** : Tough plastic, heat resistant, for the box and the bottom of compartments.
-aux variations de températures, pour 
+aux variations de températures, pour
 le fond des récpients et la boîte. Its disadvantage is however that it is
 not recyclable.
 - **Polypropylene** : transparent soft plastic recyclable, used for the lid.
 
 ### Prototyping
 We quickly prototyped our object (cardboard, numerical modelling then 3D printer)
-to check it functioning and dimensions. As a result, we remade some details 
+to check it functioning and dimensions. As a result, we remade some details
 (improving handling, dimensioning...)
 
 <div class="thumbnail">

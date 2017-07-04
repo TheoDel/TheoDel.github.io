@@ -1,7 +1,7 @@
 ---
 lang: en
 title : "revell"
-icone: "revell.png"
+icone: "revell.jpg"
 mention: <div class="mention alert alert-danger"><i class="fa fa-trophy" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Laval Virtual Award</span></div>
 order: 7
 
@@ -29,7 +29,7 @@ technologies:
 ---
 How to get your bearings in a space you can only perceive through your movements ?
 
-**revell** is a **virtual reality** project where the user is immerged in 
+**revell** is a **virtual reality** project where the user is immerged in
 an environment with invisible surfaces. Without their usual senses,
 they can reveal the surrounding world through physical gestures and actions:
 The surfaces are initially invisible, but when the user hands touch them, they
@@ -37,9 +37,9 @@ become visible. The perceptive feedback is then visual and not haptic.
 
 <div class="alert alert-danger"><p><i class="fa fa-trophy" aria-hidden="true">
 </i>&nbsp;<b>revell</b> won the <b>Prix "Virtual Fantasy award" at <a href="http://www.laval-virtual.org/">Laval Virtual</a></b>.</p>
-<p>Laval Virtual is a leader international exhibition on virtual technologies and uses. 
-Our project was presented during the exhibition, then awarded among a dozen student 
-projects in the demo category. The jury loved the original physical and cognitive 
+<p>Laval Virtual is a leader international exhibition on virtual technologies and uses.
+Our project was presented during the exhibition, then awarded among a dozen student
+projects in the demo category. The jury loved the original physical and cognitive
 engagement our project transmits !</p>
 </div>
 

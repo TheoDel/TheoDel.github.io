@@ -1,7 +1,7 @@
 ---
 lang: en
 title : "WE DO GOOD Dashboard V2"
-icone: "wdg2.png"
+icone: "wdg2.jpg"
 order: 10
 
 desc : "Redesigning dashboard for the crowdfunding platform WE DO GOOD"
@@ -67,11 +67,11 @@ technologies:
 </div>
 <br/>
 
-After my 2015 internship with the crowdfunding platform [WE DO GOOD](http://www.wedogood.co), 
+After my 2015 internship with the crowdfunding platform [WE DO GOOD](http://www.wedogood.co),
 I worked two months in 2016 to redesign this tool, through it conception to
 the develoment of a functional part of it.
 This dashboard is directed to the project creators, where they can monitor
-and manage their online fundraising. 
+and manage their online fundraising.
 
 When I arrived, the reflexion about the customer path and the dashboard structure
 had already been made. The redesign had to give a better learning time and guide

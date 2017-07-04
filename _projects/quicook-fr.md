@@ -1,6 +1,6 @@
 ---
 title : "Quicook"
-icone: "discook.png"
+icone: "quicook.jpg"
 mention: <div class="mention alert alert-info"><i class="fa fa-flask" aria-hidden="true"></i><span class="hidden-xs">&nbsp;Work in progress...</span></div>
 order: 17
 
@@ -20,6 +20,7 @@ projectcategories:
 
 technologies:
    - unity
+   - csharp
 
 ---
 
@@ -96,8 +97,8 @@ information au bon moment, et représenter des tâches
 qui peuvent être faites en même temps par différentes personnes, ajoutant notre
 dimension participative désirée.
 
-Nous voulions aussi tirer parti de la dimension communautaire grace à internet, en 
-permettant de partager des astuces ou de nouvelles recettes, et que ces dernières 
+Nous voulions aussi tirer parti de la dimension communautaire grace à internet, en
+permettant de partager des astuces ou de nouvelles recettes, et que ces dernières
 soient dynamiquement adaptées à la situation de l'utilisateur : ingrédients en
 réserve, régime alimentaire particulier, etc...
 
@@ -125,8 +126,8 @@ Ces étapes ont ensuite été formalisées plus précisément sous la forme d'un
 ### Tests d'utilisation
 
 Nous avons rapidement fait tester à des premières personnes notre concept pour
-recueillir leurs impressions sur le concept, la logique et l'intuitivité des interactions. 
-Sur le même principe que notre première réalisation, nous avons utilisé le 
+recueillir leurs impressions sur le concept, la logique et l'intuitivité des interactions.
+Sur le même principe que notre première réalisation, nous avons utilisé le
 "prototype tableau".
 Selon les actions de nos testeurs avec leurs accessoires de cuisine,
 nous dessinions sur le tableau les changements d'interface.
@@ -147,13 +148,13 @@ afin de créer un premier prototype plus tangible.
 Bien qu'il ne représente qu'une partie secondaire du projet, nous avons un peu
 étudié l'identité visuelle de notre projet. Pour la rapprocher au plus près
 de nos utilisateurs nous avons construit une planche tendance d'après
-l'environnement de nos personas, la famille urbaine de 30-40 ans. 
+l'environnement de nos personas, la famille urbaine de 30-40 ans.
 
-Cette planche nous a orienté pour décider des lignes directrices du design 
-graphique utilisé pour la projection, en tenant compte des 
-contraintes imposées par la projection. Un design épuré aux couleurs claires, 
-aux lignes franches, moderne avec une inspiration rétro. 
-L'imagerie est contourée et plate, sans perspective ou volume, presque 
+Cette planche nous a orienté pour décider des lignes directrices du design
+graphique utilisé pour la projection, en tenant compte des
+contraintes imposées par la projection. Un design épuré aux couleurs claires,
+aux lignes franches, moderne avec une inspiration rétro.
+L'imagerie est contourée et plate, sans perspective ou volume, presque
 [enfantine] (http://images.nintendolife.com/news/2010/06/get_cute_and_fluffy_with_miffys_world_on_wiiware/attachment/0/large.jpg)
 
 (image de maya)
@@ -168,7 +169,7 @@ nous avons recentré les fonctionnalités sur la préparation de la recette :
 - L'utilisateur valide les étapes effectuées pour progresser avec un objet physique
 
 Notre premier prototype a été développé avec le moteur Unity. Techniquement, des QR codes
-sont posés sur les ustensiles afin d'en déterminer la position, la reconnaissance 
+sont posés sur les ustensiles afin d'en déterminer la position, la reconnaissance
 des codes étant gérée avec la bibliothèque [Reactivision](http://reactivision.sourceforge.net/).
 L'image est ensuite projetée grâce à un vidéo-projecteur suspendu au-dessus de
 la table. Un palet servant de controleur et permettant de "cliquer" a été ajouté
@@ -176,7 +177,7 @@ pour controler l'avancement.
 
 Ce prototype a été présenté comme projet de fin d'étude et lors des journées portes
 ouvertes à l'ESAD (école supérieure d’art et de design) d'Amiens. À chaque fois, ces
-présentations ont été des occasions de recueillir des pensées, impressions, retours 
+présentations ont été des occasions de recueillir des pensées, impressions, retours
 d'utilisation nécessaires pour continuer le développement du projet.
 
 <div class="thumbnail">

@@ -1,6 +1,6 @@
 ---
 title : "Cadrythm"
-icone: "cadrythm.png"
+icone: "cadrythm.jpg"
 order: 15
 
 desc : "Un instrument de musique expérimental collaboratif"
@@ -12,7 +12,7 @@ projectcategories:
    - name : dev
    - name : ux
    - name : product
-   
+
 technologies:
    - arduino
    - processing
@@ -47,11 +47,11 @@ par exemple s'ils se suivent ou se croisent, celle-ci peut devenir plus piano ou
 
 
 ## Prototypage
-Pour tester cette idée, j'ai construit un **prototype** avec des composants 
-électroniques et une carte Arduino. 
+Pour tester cette idée, j'ai construit un **prototype** avec des composants
+électroniques et une carte Arduino.
 Pour simplifier l'interaction avec le matériel à ma disposition, la position
 des autres cadrans est indiquée avec un petit indicateur en papier, dont la
-position est contrôlée par un servo-moteur. La surface tactile est limitée à 12 
+position est contrôlée par un servo-moteur. La surface tactile est limitée à 12
 touches capacitives.
 
 <div class="thumbnail">
@@ -62,6 +62,5 @@ touches capacitives.
 </div>
 
 Deux programmes ont été développés, le [code Arduino des cadran](https://github.com/TheoDel/cadrythm)
-et le code Processing jouant la musique (le prototype nécessite donc 
+et le code Processing jouant la musique (le prototype nécessite donc
 un ordinateur pour fonctionner)
-

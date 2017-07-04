@@ -1,6 +1,6 @@
 ---
 title : "Tableau de bord WE DO GOOD V2"
-icone: "wdg2.png"
+icone: "wdg2.jpg"
 order: 10
 
 desc : "Refonte du tableau de bord pour la plateforme de financement participatif WE DO GOOD"
@@ -66,12 +66,12 @@ technologies:
 </div>
 <br/>
 
-Suite à mon stage de fin de Licence avec la plateforme de financement participatif 
-de [WE DO GOOD](http://www.wedogood.co), j'ai en 2016 travaillé deux mois pour 
+Suite à mon stage de fin de Licence avec la plateforme de financement participatif
+de [WE DO GOOD](http://www.wedogood.co), j'ai en 2016 travaillé deux mois pour
 effectuer une refonte de cet outil. Celle-ci a mené de sa conception à une
 partie fonctionnelle de son développement.
 Celui-ci est destiné aux porteurs de projets pour monitorer et gérer leur
-levée de fonds. 
+levée de fonds.
 
 En arrivant, la réflexion sur le parcours client global et la structure du
 tableau de bord avait été menée. La refonte devait amener une meilleure

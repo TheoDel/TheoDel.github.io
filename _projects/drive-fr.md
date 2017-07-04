@@ -1,6 +1,6 @@
 ---
 title : "Etude d'utilisation - Le Drive"
-icone: "drive.png"
+icone: "drive.jpg"
 order: 5
 
 desc : "Etude et tests utilisateurs du service de commande Drive"
@@ -21,7 +21,7 @@ projectcategories:
 
 Nous avons dans ce projet **observé de nouveaux utilisateurs** face au service de **courses en ligne**
 du "Drive", en relevant les points fonctionnels et à améliorer.
-Celui-ci regroupe 2 parties : 
+Celui-ci regroupe 2 parties :
 - La commande en ligne des produits, le choix du moment de retrait.
 - Le retrait physique dans le magasin en voiture.
 
@@ -56,7 +56,7 @@ concentré notre réflexion sur la commande en ligne.
       <img src="drive/results.png" class="img-responsive" alt="Diagrammes de résultats de test">
       <div class="caption">
         <p>Extraits des résultat de l'évaluation quantifiée par les utilisateurs. Si l'on ne peut évidemment pas tirer de
-        statistiques chiffrées avec ce panel, on observe néanmoins de façon générale de nettes difficultés 
+        statistiques chiffrées avec ce panel, on observe néanmoins de façon générale de nettes difficultés
         d'utilisation sur la partie web</p>
       </div>
 </div>
@@ -101,7 +101,7 @@ Nous avons donc créé une nouvelle maquette de site web essayant d'intégrer ce
       <img src="drive/planche2.png" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
         Dans le parcours du magasin (dont le plan est à gauche), on peut
-        visiter chaque rayon à la suite. Le panier prend la forme d'un ticket 
+        visiter chaque rayon à la suite. Le panier prend la forme d'un ticket
         de caisse (en bas à droite)
       </div>
     </div>
@@ -123,7 +123,7 @@ Nous avons donc créé une nouvelle maquette de site web essayant d'intégrer ce
         Un écran confirme le lieu et heure de retrait avant le paiement.
       </div>
     </div>
-    
+
   </div>
 
   <!-- Controls -->
