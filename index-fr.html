@@ -19,7 +19,7 @@ lang: fr
 
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <a href="{{ project.url }}" class="thumbnail project-thumb">
-                    <img src="media/projets-icones/{{project.icone}}"/>
+                    <img src="media/projets-icones/{{project.icone}}" alt="icone du projet {{project.title}}"/>
 
                     {% if project.mention != nil %}
                         {{project.mention}}
@@ -46,7 +46,7 @@ lang: fr
 
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <a class="thumbnail project-thumb">
-                    <img src="media/projets-icones/more.png"/>
+                    <img src="media/projets-icones/more.png" alt="icone de futurs projets"/>
 
                     <div class="project-desc-container">
                         <div class="project-desc">

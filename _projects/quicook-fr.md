@@ -48,6 +48,8 @@ mesure de l'avancement de la recette. L'utilisateur n'a plus qu'à suivre
 les indications projetées au plus près de son geste et perfectionner sa
 pratique par imitation.
 
+---
+
 ## Méthodologie détaillés
 
 ### Recherche et inspiration

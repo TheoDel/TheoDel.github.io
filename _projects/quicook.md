@@ -45,13 +45,15 @@ The camera follows each sensor and the video projector displays the good informa
 text, videos, following each step of the recipe. The user can then follow
 the indications and improve their skill by imitation.
 
+---
+
 ## Detailed methodology
 
 <i class="fa fa-globe" aria-hidden="true"></i> Sorry this story has not been translated yet.
 However, it is available in [it French version](../quicook-fr.html).
 
 <div class="thumbnail">
-      <img src="quicook/demo2.jpg" class="img-responsive" alt="Photo de Démonstration du prototype">
+      <img src="quicook/demo2.jpg" class="img-responsive" alt="Photo of the prototype presentation">
       <div class="caption">
         <p>Presentation of the concept and prototype during the Open Day of the ESAD (Art and design school of Amiens)</p>
       </div>
