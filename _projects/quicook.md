@@ -51,7 +51,7 @@ the indications and improve their skill by imitation.
 ## Detailed methodology
 
 <i class="fa fa-globe" aria-hidden="true"></i> Sorry this story has not been translated yet.
-However, it is available in [it French version](../quicook-fr.html).
+However, it is available in [it French version](../projects/quicook-fr.html).
 
 <div class="thumbnail">
       <img src="quicook/demo2.jpg" class="img-responsive" alt="Photo of the prototype presentation">
