@@ -45,7 +45,7 @@ With our initial idea, we collected the **ideas and expectations of students**,
 with an **online survey**. We drew some complementary ideas that could be developed
 in future updates (view the available classrooms, parking spaces...)
 
-<img src="utcnow/notes.png" class="img-responsive" alt="Maquettes de l'appli">
+<img src="utcnow/notes.jpg" class="img-responsive" alt="Maquettes de l'appli">
 
 ### Wireframing
 The sketching of the app screens was made with the reflexion about elements
@@ -75,7 +75,7 @@ the events on the UTC website and databases.
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="utcnow/final1.png" alt="Aperçus de la réalisation">
+      <img src="utcnow/final1.jpg" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
       </div>
     </div>

@@ -4,7 +4,7 @@ icone: "compoboite.jpg"
 order: 4
 
 desc : "Une boîte repas pensée pour la vie de tous les jours"
-headerimage: "compoboite/header.png"
+headerimage: "compoboite/header.jpg"
 displaydate: "Fall 2015"
 context: "Université de Technologie de Compiègne"
 team: "Ce projet a été réalisé avec un autre étudiant, à rôles égaux."
@@ -57,7 +57,7 @@ son humeur et des restes disponibles en y rangeant les compartiments spécialeme
 conçus pour rentrer dedans, selon un système de grille.
 
 <div class="thumbnail">
-      <img src="compoboite/scenariofr.png" class="img-responsive" alt="Scénario d'utilisation de la boîte">
+      <img src="compoboite/scenariofr.jpg" class="img-responsive" alt="Scénario d'utilisation de la boîte">
       <div class="caption">
         <p>Scénario d'utilisation de la CompoBoîte</p>
       </div>
@@ -101,7 +101,7 @@ pour en vérifier le fonctionnement et les dimensions. Suite à quoi, nous avons
 des points de détail (dimensionnement, prise en main...)
 
 <div class="thumbnail">
-      <img src="compoboite/maquette.png" class="img-responsive" alt="Modélisations et maquettes de la CompoBoîte">
+      <img src="compoboite/maquette.jpg" class="img-responsive" alt="Modélisations et maquettes de la CompoBoîte">
       <div class="caption">
         <p>Modélisations et maquettes de la CompoBoîte</p>
       </div>

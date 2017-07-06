@@ -58,7 +58,7 @@ wanted to build an experience where the user would have a perception similar to
 a blind person. He should then use now movements to be guided.
 
 <div class="thumbnail">
-      <img src="revell/drawconcepts.png" class="img-responsive" alt="Concepts sketches">
+      <img src="revell/drawconcepts.jpg" class="img-responsive" alt="Concepts sketches">
       <div class="caption">
         <p>Sketches of the imagined concepts : reveal surfaces by (virtual) touch,
          use the echo sound, subdivide the world in voxels... (Drawings from A.Delval)</p>
@@ -71,7 +71,7 @@ to the most important : touching surfaces with the virtual hands. The game engin
 a been then developed with Unity3D.
 
 <div class="thumbnail">
-      <img src="revell/development.png" class="img-responsive" alt="Development previews">
+      <img src="revell/development.jpg" class="img-responsive" alt="Development previews">
       <div class="caption">
         <p>The world modeled on Unity, the result of it transformation into
         cubes (voxels), the collision zones on the player and the first real time
@@ -88,7 +88,7 @@ need of a tutorial to discover the commands.
 This feedback contributed to an enhanced version, presented at Laval Virtual.
 
 <div class="thumbnail">
-      <img src="revell/usertesting.png" class="img-responsive" alt="Aperçus du développement">
+      <img src="revell/usertesting.jpg" class="img-responsive" alt="Aperçus du développement">
       <div class="caption">
         <p>User testing session</p>
       </div>

@@ -60,7 +60,7 @@ similaires à celles d'une personne aveugle et devrait utiliser des nouveaux
 mouvements pour se repérer.
 
 <div class="thumbnail">
-      <img src="revell/drawconcepts.png" class="img-responsive" alt="Schémas de concepts préalables">
+      <img src="revell/drawconcepts.jpg" class="img-responsive" alt="Schémas de concepts préalables">
       <div class="caption">
         <p>Schémas des concepts imaginés en amont du projet : révéler les
         surfaces par le toucher (virtuel), utiliser le son comme écho,
@@ -73,7 +73,7 @@ Avec les limitations techniques et de temps, nous avons réduit les interactions
 la plus importante, celle de toucher des surfaces avec les mains. Le moteur
 du jeu a ensuite été développé avec Unity3D.
 <div class="thumbnail">
-      <img src="revell/development.png" class="img-responsive" alt="Aperçus du développement">
+      <img src="revell/development.jpg" class="img-responsive" alt="Aperçus du développement">
       <div class="caption">
         <p>Aperçus du monde modélisé sur Unity, le résultat de sa transformation en
         cubes (voxelization), les zones de collision du joueur et un des
@@ -88,7 +88,7 @@ ajustements et l'ajout nécessaire d'un guidage pour prendre en main les command
 Ces retours ont contribués à une version améliorée, présentée au salon Laval Virtual.
 
 <div class="thumbnail">
-      <img src="revell/usertesting.png" class="img-responsive" alt="Aperçus du développement">
+      <img src="revell/usertesting.jpg" class="img-responsive" alt="Aperçus du développement">
       <div class="caption">
         <p>Séance de test d'utilisation </p>
       </div>

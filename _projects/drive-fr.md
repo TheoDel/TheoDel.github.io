@@ -4,7 +4,7 @@ icone: "drive.jpg"
 order: 5
 
 desc : "Etude et tests utilisateurs du service de commande Drive"
-headerimage: "drive/header.png"
+headerimage: "drive/header.jpg"
 displaydate: "Automne 2015"
 context: "Université de Technologie de Compiègne"
 team: "Le projet a été réalisé avec 2 autres étudiants."

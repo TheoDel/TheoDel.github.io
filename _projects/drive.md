@@ -5,7 +5,7 @@ icone: "drive.jpg"
 order: 5
 
 desc : "Study and user testing of the 'Drive' order service"
-headerimage: "drive/header.png"
+headerimage: "drive/header.jpg"
 displaydate: "Fall 2015"
 context: "Université de Technologie de Compiègne"
 team: "The project was made with two other students."

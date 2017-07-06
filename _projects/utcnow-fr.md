@@ -50,7 +50,7 @@ avons ainsi tiré de nombreuses idées complémentaires qui auraient pu être
 développées en ajout dans le futur (aperçu des places de parking, des salles
 de cours libres...)
 
-<img src="utcnow/notes.png" class="img-responsive" alt="Maquettes de l'appli">
+<img src="utcnow/notes.jpg" class="img-responsive" alt="Maquettes de l'appli">
 
 ### Maquettage
 La création de maquettes s'est faite conjointement avec une réflexion sur
@@ -82,7 +82,7 @@ les évènements sur les portails de l'UTC.
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="utcnow/final1.png" alt="Aperçus de la réalisation">
+      <img src="utcnow/final1.jpg" alt="Aperçus de la réalisation">
       <div class="carousel-caption">
       </div>
     </div>
