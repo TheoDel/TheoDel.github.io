@@ -34,6 +34,9 @@ photoshop:
 illustrator:
     name: Adobe Illustrator
     image: illustrator.png
+aftereffects:
+    name: Adobe After Effects
+    image: aftereffects.png
 processing:
     name: Processing
     image: processing.png

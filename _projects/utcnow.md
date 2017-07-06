@@ -45,7 +45,7 @@ With our initial idea, we collected the **ideas and expectations of students**,
 with an **online survey**. We drew some complementary ideas that could be developed
 in future updates (view the available classrooms, parking spaces...)
 
-<img src="utcnow/notes.jpg" class="img-responsive" alt="Maquettes de l'appli">
+<img src="utcnow/notes.jpg" class="img-responsive img-rounded" alt="Maquettes de l'appli">
 
 ### Wireframing
 The sketching of the app screens was made with the reflexion about elements

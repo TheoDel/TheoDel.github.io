@@ -50,7 +50,7 @@ avons ainsi tiré de nombreuses idées complémentaires qui auraient pu être
 développées en ajout dans le futur (aperçu des places de parking, des salles
 de cours libres...)
 
-<img src="utcnow/notes.jpg" class="img-responsive" alt="Maquettes de l'appli">
+<img src="utcnow/notes.jpg" class="img-responsive img-rounded" alt="Maquettes de l'appli">
 
 ### Maquettage
 La création de maquettes s'est faite conjointement avec une réflexion sur

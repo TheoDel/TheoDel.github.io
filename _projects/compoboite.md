@@ -37,7 +37,7 @@ We first analysed our subject, the lunchboxes :
 - The existing formal references
 
 <div class="thumbnail">
-      <img src="compoboite/scenariooriginal.jpg" class="img-responsive" alt="Scenario of the lunchbox use">
+      <img src="compoboite/scenariooriginal.jpg" class="img-responsive img-rounded" alt="Scenario of the lunchbox use">
       <div class="caption">
         <p>Scenario of a classic lunchbox use</p>
       </div>

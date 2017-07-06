@@ -21,6 +21,7 @@ projectcategories:
 technologies:
    - unity
    - csharp
+   - aftereffects
 
 ---
 
@@ -65,8 +66,12 @@ organisé en groupe une scéance de brainstorming autour du sujet de la
 cuisine, pour y trouver l'inspiration. Nous en avons tiré deux personas
 proches des préoccupations que nous souhaitions aborder.
 
-(brainstorming, persona)
-
+<div class="thumbnail">
+      <img src="quicook/personas.jpg" class="img-responsive" alt="Aperçu du tableau de brainstorming et de la planche persona">
+      <div class="caption">
+        <p>Personas issus du brainstorming conduit en groupe. Notre persona principal est un jeune parent urbain.</p>
+      </div>
+</div>
 
 ### Scénarisation de situations
 
@@ -83,7 +88,12 @@ indépendemment les unes des autres, pour toutes ces frustrations. Des concepts
 similaires se sont dégagés de ces idées, que nous avons regroupées pour
 baser nos concepts.
 
-(Scénarisation des usages)
+<div class="thumbnail">
+      <img src="quicook/scenarios.jpg" class="img-responsive" alt="Aperçus de différents scénarios d'utilisation dessinés">
+      <div class="caption">
+        <p>Différents scénarios d'utilisation et propositions de concepts.</p>
+      </div>
+</div>
 
 
 ### Concepts
@@ -118,12 +128,15 @@ sur la table, nous avons prototypé, avec un tableau à feutre et des accessoire
 les étapes de la réalisation d'une recette avec notre dispositif telles que nous
 les avons imaginées en premier temps.
 
-(Première maquette réalisée sur un tableau)
+<div class="thumbnail">
+      <img src="quicook/quicook.gif" class="img-responsive" alt="Animation des étapes d'interaction avec le dispositif">
+      <div class="caption">
+        <p>Première maquette réalisée sur un tableau, pour simuler le scénario d'utilisation.</p>
+      </div>
+</div>
 
 Ces étapes ont ensuite été formalisées plus précisément sous la forme d'un
 "flow" d'application, précisant les interactions disponibles selon la situation.
-
-(Flot des interactions dans l'application)
 
 ### Tests d'utilisation
 
@@ -134,7 +147,12 @@ Sur le même principe que notre première réalisation, nous avons utilisé le
 Selon les actions de nos testeurs avec leurs accessoires de cuisine,
 nous dessinions sur le tableau les changements d'interface.
 
-( Test utilisateur avec prototype "quick and dirty")
+<div class="thumbnail">
+      <img src="quicook/tests.jpg" class="img-responsive" alt="Photos du test d'utilisation avec la maquette sur tableau">
+      <div class="caption">
+        <p>Test utilisateur avec prototype "quick and dirty"</p>
+      </div>
+</div>
 
 Pour les testeurs, nos interactions étaient trop dirigistes et contraignantes :
 par exemple, nous avions oublié de prendre en compte la place des accessoires
@@ -143,7 +161,12 @@ inutilisés et ils souhaitaient plus de flexibilité dans la façon de procéder
 En tenant compte de ces retours, nous avons modifié le flot d'interaction
 afin de créer un premier prototype plus tangible.
 
-(Deuxième version de maquette)
+<div class="thumbnail">
+      <img src="quicook/maquette2.jpg" class="img-responsive" alt="Photos de la maquette papier des interactions">
+      <div class="caption">
+        <p>Seconde maquette papier utilisée pour développer le proyotype</p>
+      </div>
+</div>
 
 ### Identité visuelle
 
@@ -157,9 +180,15 @@ graphique utilisé pour la projection, en tenant compte des
 contraintes imposées par la projection. Un design épuré aux couleurs claires,
 aux lignes franches, moderne avec une inspiration rétro.
 L'imagerie est contourée et plate, sans perspective ou volume, presque
-[enfantine] (http://images.nintendolife.com/news/2010/06/get_cute_and_fluffy_with_miffys_world_on_wiiware/attachment/0/large.jpg)
+[enfantine](http://images.nintendolife.com/news/2010/06/get_cute_and_fluffy_with_miffys_world_on_wiiware/attachment/0/large.jpg)
 
-(image de maya)
+<div class="thumbnail">
+      <img src="quicook/graphisme.jpg" class="img-responsive" alt="Charte graphique du prototype">
+      <div class="caption">
+        <p>Charte graphique du prototype</p>
+      </div>
+</div>
+
 
 ### Prototype de MVP et présentation
 
@@ -176,6 +205,14 @@ des codes étant gérée avec la bibliothèque [Reactivision](http://reactivisio
 L'image est ensuite projetée grâce à un vidéo-projecteur suspendu au-dessus de
 la table. Un palet servant de controleur et permettant de "cliquer" a été ajouté
 pour controler l'avancement.
+
+<div class="thumbnail">
+      <img src="quicook/demo1.jpg" class="img-responsive" alt="Photos du test et présentation du prototype à l'UTC">
+      <div class="caption">
+        <p>Test et présentation du prototype à l'UTC</p>
+      </div>
+</div>
+
 
 Ce prototype a été présenté comme projet de fin d'étude et lors des journées portes
 ouvertes à l'ESAD (école supérieure d’art et de design) d'Amiens. À chaque fois, ces
