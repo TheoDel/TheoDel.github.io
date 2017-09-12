@@ -25,6 +25,9 @@ jquery:
 invision:
     name: inVision
     image: invision.png
+sketch:
+    name: Sketch
+    image: sketch.png
 arduino:
     name: Arduino
     image: arduino.png

@@ -33,7 +33,7 @@ rv:
     color: default
     
 mobil:
-    name: Dev. Mobile
-    name-en: Mobile Dev
+    name: App Mobile
+    name-en: Mobile App
     color: default
     icon: mobile-phone

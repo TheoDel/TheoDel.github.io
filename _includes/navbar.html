@@ -17,7 +17,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{base}}#about" data-target="#about">
+                    <li><a href="{% if page.lang == 'fr' %}{{base}}index-fr{% endif %}{% if page.lang == 'en' %}{{base}}index{% endif %}#about"
+                           data-target="#about">
                         {% if page.lang == 'en' %}
                         About me
                         {% else %}
